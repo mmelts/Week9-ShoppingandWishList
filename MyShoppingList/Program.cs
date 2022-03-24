@@ -9,7 +9,7 @@ namespace MyShoppingList
     {
         static void Main(string[] args)
         {
-            string fileLocation = @"C:\Users\KristoToomsoo\samples\wishList\shopping list";
+            string fileLocation = @"C:\...\...\samples\wishList\shopping list";
             string fileName = @"\\myshoppinglist.txt";
 
             string[] arrayFromFile = File.ReadAllLines($"{fileLocation}{fileName}");
