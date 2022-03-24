@@ -7,7 +7,7 @@ namespace DirectoriesAndFiles
     {
         static void Main(string[] args)
         {
-            string rootDirectory = @"C:\Users\KristoToomsoo\samples";
+            string rootDirectory = @"C:\...\...\samples";
             Console.WriteLine("Enter directory name:");
             string newDirectory = Console.ReadLine();
             Console.WriteLine("Enter file name:");
